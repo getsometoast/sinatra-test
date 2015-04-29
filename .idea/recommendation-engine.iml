@@ -7,6 +7,7 @@
     <orderEntry type="library" scope="PROVIDED" name="ast (v2.0.0, RVM: ruby-2.1.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="astrolabe (v1.3.0, RVM: ruby-2.1.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bson (v3.0.2, RVM: ruby-2.1.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bson_ext (v1.5.1, RVM: ruby-2.1.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.7.12, RVM: ruby-2.1.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="capybara (v2.4.4, RVM: ruby-2.1.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="daemons (v1.1.9, RVM: ruby-2.1.5) [gem]" level="application" />

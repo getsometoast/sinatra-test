@@ -1,2 +1,4 @@
 #content
-  %h1= @data[:something]
+  %h1= 'This is the data from mongo:'
+  %p= 'id: ' + @data.find(:name => 'FKA Twigs').to_a[0]['_id']
+  %p= 'name: ' + @data.find(:name => 'FKA Twigs').to_a[0]['name']
