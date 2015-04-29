@@ -1,3 +1,4 @@
 get '/home' do
-  erb :home
+  @data = {something: 'AWESOME'}
+  haml :home
 end
