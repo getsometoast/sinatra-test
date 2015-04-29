@@ -1,3 +1,8 @@
 require 'rubocop/rake_task'
 
-RuboCop::RakeTask.new
+namespace :rubocop do
+  desc 'Run rubocop against the code!'
+  task :run do
+    RuboCop::RakeTask.new
+  end
+end

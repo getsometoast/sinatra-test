@@ -1,2 +1,2 @@
 desc 'run rubocop, all specs and then run the app locally'
-task default: %w(rubocop specs run)
+task default: %w(dev:test dev:run)
