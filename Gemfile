@@ -2,13 +2,26 @@ source 'https://rubygems.org'
 
 gem 'haml'
 gem 'sinatra'
-gem 'rake'
 gem 'mongo'
 gem 'thin'
-gem 'bson_ext'
+
+group :linting do
+  gem 'jslint'
+  gem 'rubocop'
+  gem 'scss-lint'
+end
 
 group :test do
-  gem 'rubocop'
   gem 'rspec'
   gem 'capybara'
+end
+
+group :development do
+  gem 'rake'
+  gem 'sass'
+end
+
+group :deployment do
+  gem 'travis'
+  gem 'sinatra-asset-pipeline'
 end
