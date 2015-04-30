@@ -6,24 +6,6 @@ gem 'mongo'
 gem 'thin'
 gem 'pingdom-client'
 
-group :linting do
-  gem 'jslint'
-  gem 'rubocop'
-  gem 'scss-lint'
-end
-
-group :test do
-  gem 'rspec'
-  gem 'capybara'
-end
-
-group :development do
-  gem 'rake'
-  gem 'sass'
-end
-
-group :deployment do
-  gem 'rake_commit'
-  gem 'travis'
-  gem 'sinatra-asset-pipeline', '~> 0.7.0'
+Dir.foreach('./lib/gems') do |gemfile|
+  eval_gemfile(gemfile)
 end

@@ -1,0 +1,5 @@
+group :linting do
+  gem 'jslint'
+  gem 'rubocop'
+  gem 'scss-lint'
+end
