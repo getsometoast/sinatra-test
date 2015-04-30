@@ -5,7 +5,8 @@ gem 'sinatra', '~> 1.4'
 gem 'mongo'
 gem 'thin'
 gem 'pingdom-client'
+gem 'rollout'
 
-Dir.foreach('./lib/gems') do |gemfile|
+Dir.glob('./lib/gems/*.gems') do |gemfile|
   eval_gemfile(gemfile)
 end
