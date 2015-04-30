@@ -22,6 +22,7 @@ group :development do
 end
 
 group :deployment do
+  gem 'rake_commit'
   gem 'travis'
   gem 'sinatra-asset-pipeline'
 end
