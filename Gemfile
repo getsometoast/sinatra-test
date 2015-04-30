@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'haml'
-gem 'sinatra'
+gem 'sinatra', '~> 1.4'
 gem 'mongo'
 gem 'thin'
+gem 'pingdom-client'
 
 group :linting do
   gem 'jslint'
@@ -24,5 +25,5 @@ end
 group :deployment do
   gem 'rake_commit'
   gem 'travis'
-  gem 'sinatra-asset-pipeline'
+  gem 'sinatra-asset-pipeline', '~> 0.7.0'
 end
